@@ -18,10 +18,10 @@ import kubernetes from '../public/k8s2.png'
 
 function Skills() {
     return (
-        <div className="bg-white flex flex-col items-center space-y-7 h-[70vh]">
+        <div className="bg-white flex flex-col items-center space-y-7 h-screen">
             <h1 className="text-4xl text-black font-semibold">SKILLS</h1>
-            <h3 className="text-center opacity-80 text-black">SOME TECHONOLOGIES I'VE WORKED WITH:</h3>
-            <div className="md:max-w-2xl">
+            <h3 className="text-xs lg:text-base text-center opacity-80 text-black">SOME TECHONOLOGIES I'VE WORKED WITH:</h3>
+            <div className="md:max-w-2xl item-center max-w-xs">
                 <Image className="object-contain fitler grayscale hover:grayscale-0 transition-all ease-out" src={html} width={100} height={80} />
                 <Image className="object-contain fitler grayscale hover:grayscale-0 transition-all ease-out" src={css} width={100} height={80} />
                 <Image className="object-contain fitler grayscale hover:grayscale-0 transition-all ease-out" src={js} width={100} height={80} />
