@@ -7,7 +7,7 @@ function Projects() {
         <div className="text-black flex flex-col items-center space-y-5 my-10 mt-40">
             <h1 className="text-4xl text-black font-light">PROJECTS</h1>
             <p className="opacity-70">SOME OF MY WORK</p>
-            <div className="grid grid-cols-1 2xl:grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-10">
                 <Card src={project1} title={"DirtyBits"} description={""} tech={['#NextJS', '#TailwindCSS', '#Django(REST API)', '#Microservices']}/>
                 <Card src={project1} title={"DirtyBits"} description={""} tech={['#NextJS', '#TailwindCSS', '#Django(REST API)', '#Microservices']}/>
                 <Card src={project1} title={"DirtyBits"} description={""} tech={['#NextJS', '#TailwindCSS', '#Django(REST API)', '#Microservices']}/>
