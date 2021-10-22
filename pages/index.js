@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 // import Test from '../components/test'
@@ -9,19 +9,21 @@ import Contact from '../components/Contact';
 import Resume from '../components/Resume';
 import Footer from '../components/Footer'
 
-function index() {
+function Index() {
   return (
-    <div className="bg-white">
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Skills/>
-      <Resume/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <>
+      <div className="bg-white">
+        <Navbar/>
+        <Hero/>
+        <About/>
+        <Skills/>
+        <Resume/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
+      </div>
+    </>
   )
 }
 
-export default index
+export default Index

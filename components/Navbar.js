@@ -1,13 +1,13 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
+import { Fragment, useEffect } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'About', href: '#', current: true },
-  { name: 'Skills', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'About', href: '#about', current: false },
+  { name: 'Skills', href: '#skills', current: false },
+  { name: 'Projects', href: '#projects', current: false },
+  { name: 'Contact', href: '#contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -15,8 +15,15 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
+  useEffect(() => {
+    window.addEventListener('scroll', function(){
+      let header = document.querySelector('nav');
+      header.classList.toggle('nav-scrolled', window.scrollY > 0)
+    })
+  })
+ 
   return (
-    <Disclosure as="nav" className="absolute z-50 bg-transparent-800 w-screen lg:w-screen">
+    <Disclosure as="nav" className="z-50 w-screen lg:w-screen sticky top-0 transition-all ease-in-out duration-500">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">

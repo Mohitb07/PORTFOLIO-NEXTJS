@@ -29,3 +29,18 @@ html::-webkit-scrollbar-thumb {
   background-color: #04853a;
   border-radius: 100px;
 }
+
+.nav-scrolled {
+  background-color: black !important;
+  color: #fff !important;
+  -webkit-box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1) !important;
+  height: 3.9rem;
+  width: 100% !important;
+  -webkit-transition: 0.2s ease-in-out !important;
+  transition: 0.2s ease-in-out !important;
+}
+
+.nav-scrolled .navbar a {
+  color: white !important;
+}

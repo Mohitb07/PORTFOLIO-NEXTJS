@@ -7,7 +7,7 @@ function Resume() {
     return (
         <div style={style} className="flex flex-col items-center p-10 space-y-5 justify-center h-80">
             <h1 className="font-light lg:text-2xl">CHECKOUT OUT MY RESUME</h1>
-            <a className="uppercase px-8 py-2 border border-white text-white max-w-max shadow-sm hover:shadow-lg cursor-pointer hover:px-10 transition-all ease-out duration-3000 animate-pulse">Download</a>
+            <a id="projects" className="uppercase px-8 py-2 border border-white text-white max-w-max shadow-sm hover:shadow-lg cursor-pointer hover:px-10 transition-all ease-out duration-3000 animate-pulse">Download</a>
         </div>
     )
 }
