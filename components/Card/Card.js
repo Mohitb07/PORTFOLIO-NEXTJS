@@ -11,17 +11,17 @@ function Card(props) {
         <Image src={props.src} alt="blog photo"  className="w-full object-contain" height={150} width={290}/>
         <div className="w-full">
             <div className="flex justify-center space-x-5 p-4">
-                <a href="https://dirty-bits-next-js.vercel.app/" target="_blank" rel="noreferrer" className="text-indigo-500 text-md font-medium">
+                <a href={props.visit} target="_blank" rel="noreferrer" className="text-indigo-500 text-md font-medium">
                     Visit
                 </a>
-                <a className="text-indigo-500 text-md font-medium">
+                <a href={props.source} target="_blank" rel="noreferrer" className="text-indigo-500 text-md font-medium">
                     Source
                 </a>
             </div>
             <p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
                 {props.title}
             </p>
-            <p className="text-gray-600 dark:text-gray-300 font-light text-md">
+            <p className="text-gray-600 dark:text-gray-300 font-light text-md text-xs">
                 {props.description}
             </p>
             <div className="flex flex-wrap justify-starts items-center mt-4 border-t-2 pt-5">

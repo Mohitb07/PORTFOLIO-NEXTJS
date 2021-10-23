@@ -8,9 +8,9 @@ function About() {
         <div >
         <div  className="mt-10 flex flex-col bg-white text-black p-10 items-center w-full">
             <h1 className="lg:text-3xl font-semibold">A LITTLE ABOUT ME</h1>
-            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="me" className="rounded-full h-40 w-40 mx-auto my-4 object-cover p-1 border-2 border-green-800" />
+            <img src="https://helostatus.com/wp-content/uploads/2021/08/profile-pictures-for-WhatsApp.jpg" alt="me" className="rounded-full h-40 w-40 mx-auto my-4 object-cover p-1 border-2 border-green-800" />
             <div className="lg:max-w-lg text-center mb-24 max-w-screen-sm">
-                <p>Hey! My name is Mohit Singh Bisht and I'm a Full stack web developer with a passion for both front end and backend development.I have completed by Bachelor's of Computer Application (BCA) from Intitute of Innovation in Technology and Management. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
+                <p>Hey! My name is Mohit Singh Bisht and I'm a Full stack web developer with a passion for both front end and backend development.I have completed by Bachelor of Computer Application (BCA) from Intitute of Innovation in Technology and Management. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
                 </p>
             </div>
             <div className="mt-52">
