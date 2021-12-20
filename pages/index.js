@@ -15,6 +15,11 @@ function Index() {
     <>
       <Head>
         <title>Mohit Bisht</title>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3751379106033986"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
       <div className="bg-white">
         <Navbar />
