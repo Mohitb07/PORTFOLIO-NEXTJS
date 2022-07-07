@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
   const style = {
-    background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://i.pinimg.com/originals/17/4b/77/174b77c13dd4b36bc8376940135d280b.jpg) center center fixed`,
+    background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(${`hero-background.jpg`}) center center fixed`,
   };
   return (
     <div

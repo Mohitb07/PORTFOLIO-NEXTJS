@@ -1,7 +1,6 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment, useEffect } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import { useLayoutEffect } from "react";
+import { Disclosure } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "About", href: "#about", current: false },
@@ -15,12 +14,14 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-  useEffect(() => {
+  useLayoutEffect(() => {
     window.addEventListener("scroll", function () {
       let header = document.querySelector("nav");
       header.classList.toggle("nav-scrolled", window.scrollY > 0);
     });
-  });
+
+    return () => window.removeEventListener("scroll");
+  }, []);
 
   return (
     <Disclosure
@@ -31,7 +32,7 @@ export default function Navbar() {
         <>
           <div
             className={`max-w-7xl mx-auto px-2 sm:px-6 ${
-              open && "bg-black"
+              open && "glassNavbar"
             } lg:px-8 lg:bg-transparent`}
           >
             <div className="relative flex items-center justify-between h-16">

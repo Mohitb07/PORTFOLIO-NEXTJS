@@ -21,7 +21,7 @@ function Index() {
           crossOrigin="anonymous"
         ></script>
       </Head>
-      <div className="bg-white">
+      <div className="">
         <Navbar />
         <Hero />
         <About />
