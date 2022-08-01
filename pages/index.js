@@ -11,8 +11,30 @@ import Contact from "../components/Contact";
 import Resume from "../components/Resume";
 import Footer from "../components/Footer";
 import bg1 from "../public/bg-1.png";
+import { motion } from "framer-motion";
 
 function Index() {
+  const bgContainer = {
+    hidden: {
+      opacity: 0,
+      transition: {
+        type: "spring",
+        duration: 1200,
+        ease: "easeInOut",
+        delay: 9.5,
+      },
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        type: "spring",
+        duration: 1200,
+        ease: "easeInOut",
+        delay: 1.5,
+      },
+    },
+  };
+
   return (
     <>
       <Head>
@@ -25,8 +47,18 @@ function Index() {
       </Head>
       <div className="bg-[#001220] overflow-hidden">
         <Navbar />
-        <div className="bg1 absolute h-60 w-60 md:h-[500px] md:w-[500px]"></div>
-        <div className="bg2 absolute h-60 w-60 md:h-[500px] md:w-[500px]"></div>
+        <motion.div
+          variants={bgContainer}
+          initial="hidden"
+          animate="visible"
+          className="bg1 absolute h-60 w-60 md:h-[500px] md:w-[500px]"
+        ></motion.div>
+        <motion.div
+          variants={bgContainer}
+          initial="hidden"
+          animate="visible"
+          className="bg2 absolute h-60 w-60 md:h-[500px] md:w-[500px]"
+        ></motion.div>
         <Hero />
         <About />
         <Skills />
