@@ -12,7 +12,7 @@
 
 @layer base {
   body {
-    @apply overflow-x-hidden bg-[#001220];
+    @apply overflow-x-hidden
   }
 }
 
@@ -109,4 +109,30 @@ html::-webkit-scrollbar-thumb {
 
 .nav-scrolled .navbar a {
   color: white !important;
+}
+
+.bg1 {
+  background: #190549;
+  background: linear-gradient(87deg, #190549 22%, #5f279f 100%);
+  border-radius: 71% 29% 67% 33% / 29% 30% 70% 71%;
+  right: 0%;
+}
+.bg2 {
+  background: #190549;
+  background: linear-gradient(87deg, #4b1ed3 22%, #410661 100%);
+  border-radius: 58% 42% 76% 24% / 58% 46% 54% 42% ;
+  left: 0%;
+  bottom: 10%;
+}
+
+.glassBackground {
+  /* background: rgba(255, 255, 255, 0.1); */
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+  background-clip: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.ps {
+  position: absolute !important
 }

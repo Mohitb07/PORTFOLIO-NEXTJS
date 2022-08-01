@@ -1,4 +1,4 @@
-import { useLayoutEffect } from "react";
+import { useEffect, useLayoutEffect } from "react";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
@@ -14,19 +14,21 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-  useLayoutEffect(() => {
+  useEffect(() => {
     window.addEventListener("scroll", function () {
       let header = document.querySelector("nav");
       header.classList.toggle("nav-scrolled", window.scrollY > 0);
     });
 
-    return () => window.removeEventListener("scroll");
+    return () => window.removeEventListener("scroll", null);
   }, []);
 
   return (
     <Disclosure
       as="nav"
-      className="z-50 w-screen lg:w-screen sticky top-0 transition-all ease-in-out duration-500"
+      className="z-50 w-screen lg:w-screen sticky top-0 transition-all ease-in-out duration-500
+      
+      "
     >
       {({ open }) => (
         <>
