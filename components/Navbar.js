@@ -26,9 +26,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="z-50 w-screen lg:w-screen sticky top-0 transition-all ease-in-out duration-500
-      
-      "
+      className="w-screen fixed transition-all ease-in-out duration-500 z-50"
     >
       {({ open }) => (
         <>
