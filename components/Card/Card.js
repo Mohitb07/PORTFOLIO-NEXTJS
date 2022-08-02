@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import project from "../../public/1.png";
 
 function Card({ src, title, description, source, visit }) {
   return (
@@ -13,15 +12,17 @@ function Card({ src, title, description, source, visit }) {
         <h4 className="title">{title}</h4>
         <p className="description">{description}</p>
         <div className="space-x-5">
-          <a
-            id="projects"
-            href={visit}
-            target="_blank"
-            rel="noreferrer"
-            className="uppercase text-sm px-8 py-2 border border-white text-white max-w-max shadow-sm hover:bg-white hover:text-black transition-all ease-in-out duration-500"
-          >
-            Visit
-          </a>
+          {visit && (
+            <a
+              id="projects"
+              href={visit}
+              target="_blank"
+              rel="noreferrer"
+              className="uppercase text-sm px-8 py-2 border border-white text-white max-w-max shadow-sm hover:bg-white hover:text-black transition-all ease-in-out duration-500"
+            >
+              Visit
+            </a>
+          )}
           <a
             id="projects"
             href={source}
