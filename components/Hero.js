@@ -63,15 +63,15 @@ function Hero() {
   };
 
   return (
-    <div className="min-h-screen glassBackground">
-      <div className="w-full md:w-1/2 mx-auto md:pl-7">
-        <div className="flex flex-col-reverse md:flex-row items-center justify-between pt-10 md:pt-0">
+    <div className="min-h-screen  glassBackground">
+      <div className="w-full mx-auto p-4 2xl:w-[1250px]">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-around 2xl:justify-between pt-10 md:pt-0">
           <div className="space-y-7">
             <motion.h1
               variants={textAnimation1}
               initial="hidden"
               animate="visible"
-              className="lg:text-5xl text-2xl font-extralight "
+              className=" text-2xl font-extralight sm:text-[30px] md:text-2xl lg:text-3xl xl:text-4xl"
             >
               Hello
             </motion.h1>
@@ -79,7 +79,7 @@ function Hero() {
               variants={textAnimation2}
               initial="hidden"
               animate="visible"
-              className="lg:text-5xl text-2xl font-extralight "
+              className=" text-2xl font-extralight sm:text-[30px] md:text-2xl lg:text-3xl xl:text-4xl"
             >
               I am Mohit Bisht
             </motion.h1>
@@ -87,14 +87,14 @@ function Hero() {
               variants={textAnimation3}
               initial="hidden"
               animate="visible"
-              className="lg:text-3xl text-2xl font-extralight "
+              className="text-2xl font-extralight sm:text-[30px] md:text-2xl lg:text-3xl xl:text-4xl"
             >
               A <span className="text-purple-600 font-bold">FullStack</span>{" "}
               Developer
             </motion.h1>
           </div>
           <motion.div
-            className="transition-all ease-in-out duration-500"
+            className="transition-all ease-in-out duration-500 md:h-[500px] md:w-[500px] lg:h-[650px] lg:w-[650px] xl:h-[800px] xl:w-[800px]"
             variants={imageContainer}
             initial="hidden"
             animate="visible"
