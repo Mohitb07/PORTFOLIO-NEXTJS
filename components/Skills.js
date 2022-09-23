@@ -1,27 +1,26 @@
-import React from "react";
 import Image from "next/image";
+import React from "react";
 
-import html from "../public/html.png";
 import css from "../public/css.png";
-import js from "../public/js.png";
-import py from "../public/py.png";
-import react from "../public/react.png";
-import nodejs from "../public/nodejs.png";
-import tailwind from "../public/tailwind.png";
-import redux from "../public/redux.png";
-import mongo from "../public/mongo.png";
-import sql from "../public/sql.png";
-import git from "../public/git.png";
-import postman from "../public/postman.png";
 import docker2 from "../public/docker2.png";
 import firebase from "../public/firebase.png";
+import git from "../public/git.png";
+import html from "../public/html.png";
+import js from "../public/js.png";
+import mongo from "../public/mongo.png";
+import nodejs from "../public/nodejs.png";
+import postman from "../public/postman.png";
+import react from "../public/react.png";
+import redux from "../public/redux.png";
+import sql from "../public/sql.png";
+import tailwind from "../public/tailwind.png";
 
 function Skills() {
   return (
     <div className="flex flex-col justify-center items-center space-y-7 h-screen">
       <h1 className="text-4xl text-[#CCD6F6] font-semibold">SKILLS</h1>
       <h3 className="text-xs lg:text-base text-center opacity-80 text-[#8892B0]">
-        SOME TECHONOLOGIES I'VE WORKED WITH:
+        SOME TECHONOLOGIES I&apos;`VE WORKED WITH:
       </h3>
       <div className="flex flex-wrap gap-5 justify-center md:max-w-2xl item-center max-w-xs">
         <Image
