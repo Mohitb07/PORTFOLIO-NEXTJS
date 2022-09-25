@@ -14,12 +14,11 @@ function Footer() {
                 <IoMdRocket onClick={() => window.scrollTo(0,0)}/>
             </div>
             <div className="text-xs flex items-center space-x-1">
-                <AiOutlineCopyright className="text-base"/><span>Mohit Singh Bisht 2021</span> 
+                <AiOutlineCopyright className="text-base"/><span>Mohit Singh Bisht 2022</span> 
             </div>
             <div className="space-x-2">
                 <span className="text-xs">+91-8929689980</span>,
                 <span className="text-xs">bmohit980@gmail.com</span>
-
             </div>
         </div>
     )
