@@ -41,9 +41,10 @@ function About() {
               <FaReact className="text-[10rem] bg-[#793EF9] text-[#CCD6F6] rounded-full p-12 hover:animate-spin" />
               <h3>Front End</h3>
               <p className="text-center opacity-70">
-                I have mainly worked with{" "}
-                <span className="font-semibold">ReactJS</span> and doing it for
-                the past two years, and I know HTML, CSS, JS, ReactJS,
+                Most of the time i work with{" "}
+                <span className="font-semibold">ReactJS, </span>
+                <span className="font-semibold">NextJS </span>
+                and doing it for the past two years, and I know HTML, CSS, JS,
                 Client-Side Rendering, and Tailwind in this area.
               </p>
             </div>
@@ -52,11 +53,14 @@ function About() {
               <VscServerProcess className="text-[10rem] bg-[#793EF9] text-[#CCD6F6] rounded-full p-12 hover:animate-spin" />
               <h3>Back End</h3>
               <p className="text-center opacity-70">
-                I have mainly worked in the NodeJS environment and doing it for
-                the past two years, and I have done things like creating the{" "}
-                <span className="font-semibold">RestAPIs</span> in NoSql(
-                <span className="font-semibold">MongoDB</span>), Server Side
-                Rendering and i am also familiar with{" "}
+                I have also worked in a NodeJS environment and have done things
+                like <span className="font-semibold">RestAPIs</span>,
+                <span className="font-semibold">
+                  Authentication/Authorization
+                </span>
+                , and
+                <span className="font-semibold"> Server Side Rendering</span>. I
+                am also just familiar with{" "}
                 <span className="font-semibold"> Microservices </span>{" "}
                 Architecture.{" "}
               </p>
@@ -66,7 +70,7 @@ function About() {
               <SiAzuredevops className="text-[10rem] bg-[#793EF9] text-[#CCD6F6] rounded-full p-12 hover:animate-spin" />
               <h3>DevOps</h3>
               <p id="skills" className="text-center opacity-70">
-                I also do some DevOps things like deploying to{" "}
+                Sometimes I also do some DevOps things like deploying to{" "}
                 <span className="font-semibold">Kubernetes</span> cluster,
                 isolating the environment with{" "}
                 <span className="font-semibold">Docker</span> and using{" "}
