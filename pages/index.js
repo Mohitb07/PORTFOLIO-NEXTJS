@@ -1,17 +1,15 @@
 import React from "react";
 import Head from "next/head";
-import Image from "next/image";
 
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Skills from "../components/Skills";
-import Projects from "../components/Projects";
-import Contact from "../components/Contact";
-import Resume from "../components/Resume";
-import Footer from "../components/Footer";
-import bg1 from "../public/bg-1.png";
 import { motion } from "framer-motion";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
+import Resume from "../components/Resume";
+import Skills from "../components/Skills";
 
 function Index() {
   const bgContainer = {
