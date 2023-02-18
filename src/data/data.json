@@ -1,0 +1,112 @@
+{
+  "brand": "Mohit Bisht",
+  "hero": {
+    "title": ["Hello", "I am Mohit Bisht", "FullStack"],
+    "image": "https://i.postimg.cc/MGFX8MY9/Saly-1.png",
+    "footer": "Know more about Mohit"
+  },
+  "about": {
+    "profilePic": "https://cdnb.artstation.com/p/assets/images/images/034/457/389/large/shin-min-jeong-.jpg?1612345145",
+    "aboutMe" : "Hey! My name is Mohit Singh Bisht and I am a Full-stack web developer with a passion for front-end and back-end development. I have completed my Bachelor of Computer Application (BCA) from the Insitute of Innovation in Technology and Management. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences"
+  },
+  "skills": [
+    {
+      "src": "/images/html.png",
+      "alt": "html logo"
+    },
+    {
+      "src": "/images/css.png",
+      "alt": "css logo"
+    },
+    {
+      "src": "/images/js.png",
+      "alt": "js logo"
+    },
+    {
+      "src": "/images/typescript.png",
+      "alt": "typescript logo"
+    },
+    {
+      "src": "/images/react.png",
+      "alt": "react logo"
+    },
+    {
+      "src": "/images/nodejs.png",
+      "alt": "nodejs logo"
+    },
+    {
+      "src": "/images/tailwind.png",
+      "alt": "tailwind logo"
+    },
+    {
+      "src": "/images/redux.png",
+      "alt": "redux logo"
+    },
+    {
+      "src": "/images/mongo.png",
+      "alt": "mongo logo"
+    },
+    {
+      "src": "/images/sql.png",
+      "alt": "sql logo"
+    },
+    {
+      "src": "/images/git.png",
+      "alt": "git logo"
+    },
+    {
+      "src": "/images/postman.png",
+      "alt": "postman logo"
+    },
+    {
+      "src": "/images/docker.png",
+      "alt": "docker logo"
+    },
+    {
+      "src": "/images/firebase.png",
+      "alt": "firebase logo"
+    },
+    {
+      "src": "/images/github.png",
+      "alt": "github logo"
+    },
+    {
+      "src": "/images/yarn.png",
+      "alt": "yarn logo"
+    },
+    {
+      "src": "/images/sass.png",
+      "alt": "sass logo"
+    }
+  ],
+  "resume": {
+    "name": "Mohit Singh Bisht",
+    "src": "resume.pdf"
+  },
+  "projects": [
+    {
+      "src": "/images/1.jpeg",
+      "visit": "https://dirty-bits-next-js.vercel.app/",
+      "source": "https://github.com/Mohitb07/DirtyBits-Next-Js",
+      "title": "DirtyBits"
+    },
+    {
+      "src": "/images/2.jpeg",
+      "visit": "https://mohitb07.github.io/live_weather/",
+      "source": "https://github.com/Mohitb07/live_weather",
+      "title": "Live Weather"
+    },
+    {
+      "src": "/images/facesmash.png",
+      "source": "https://github.com/Mohitb07/FaceSmash",
+      "title": "FaceSmash"
+    }
+  ],
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/mohitbisht19/",
+    "github": "https://github.com/Mohitb07"
+  },
+  "copyright": "Mohit Singh Bisht 2023",
+  "phoneno": "+91-8929689980",
+  "email": "bmohit980@gmail.com"
+}
