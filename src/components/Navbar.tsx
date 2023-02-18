@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
+import data from '../data/data.json'
+
 const navigation = [
   { name: "About", href: "#about", current: false },
   { name: "Skills", href: "#skills", current: false },
@@ -56,11 +58,11 @@ export default function Navbar() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <h1 className="block uppercase tracking-wider font-bold mt-3 lg:hidden h-8 w-auto">
-                    Mohit Bisht
+                    {data.brand}
                   </h1>
 
                   <h1 className="hidden uppercase tracking-wider lg:block h-8 w-auto font-bold mt-1 text-lg">
-                    Mohit Bisht
+                    {data.brand}
                   </h1>
                 </div>
                 <div className="hidden sm:block sm:ml-6">

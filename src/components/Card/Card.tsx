@@ -1,19 +1,19 @@
 import React from "react";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 interface CardProps {
-  src: StaticImageData
+  imageSrc: string
   title: string
   description?: string
   source: string
   visit?: string
 }
 
-const Card: React.FC<CardProps> = ({ src, title, description, source, visit }) => {
+const Card: React.FC<CardProps> = ({ imageSrc, title, description, source, visit }) => {
   return (
     <div className="card cursor-pointer">
       <div className="imgBox h-full">
-        <Image height={350} width={550} src={src} alt="Image" />
+        <Image height={350} width={550} src={imageSrc} alt="Image" />
       </div>
 
       <div className="content">

@@ -4,15 +4,17 @@ import { SiAzuredevops } from "react-icons/si";
 import { VscServerProcess } from "react-icons/vsc";
 import Image from "next/image";
 
+import data from '../data/data.json'
+
 function About() {
   return (
     <div>
       <div className="mt-10 flex flex-col text-[#CCD6F6] p-10 items-center w-full">
-        <h1 className="lg:text-3xl font-semibold">A LITTLE ABOUT ME</h1>
+        <h1 className="md:base-title text-3xl font-light">A LITTLE ABOUT ME</h1>
         <div className="avatar my-10">
           <div className="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
             <Image
-              src="https://cdnb.artstation.com/p/assets/images/images/034/457/389/large/shin-min-jeong-.jpg?1612345145"
+              src={data.about.profilePic}
               alt="profile pic"
               height={300}
               width={300}
@@ -22,16 +24,11 @@ function About() {
 
         <div className="lg:max-w-lg text-center mb-24 max-w-screen-sm text-[#8892B0] select-none">
           <p className="leading-8">
-            Hey! My name is Mohit Singh Bisht and I am a Full-stack web
-            developer with a passion for front-end and back-end development. I
-            have completed my Bachelor of Computer Application (BCA) from the
-            Institute of Innovation in Technology and Management. I aspire
-            toward a career that will allow me to channel my creativity through
-            crafting beautiful software and engaging experiences.
+            {data.about.aboutMe}
           </p>
         </div>
         <div className="mt-52">
-          <h1 className="text-4xl text-[#CCD6F6] font-semibold text-center">
+          <h1 className="base-title text-center">
             WHAT I DO
           </h1>
           <div className="mt-20 mb-52 lg:flex justify-center space-y-3 lg:space-x-8 items-center">
@@ -42,7 +39,7 @@ function About() {
                 Most of the time i work with{" "}
                 <span className="font-semibold">ReactJS, </span>
                 <span className="font-semibold">NextJS </span>
-                and doing it for the past two years, and I know HTML, CSS, JS,
+                and doing it for the past three years, and I know HTML, CSS, JS,
                 Client-Side Rendering, and Tailwind in this area.
               </p>
             </div>

@@ -2,6 +2,8 @@ import Head from "next/head";
 import React from "react";
 
 import { motion } from "framer-motion";
+import data from '../data/data.json'
+
 import About from '../components/About'
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -36,7 +38,7 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Mohit Bisht</title>
+        <title>{data.brand}</title>
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3751379106033986"
