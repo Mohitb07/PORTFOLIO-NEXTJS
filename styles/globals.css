@@ -19,6 +19,15 @@
   }
 }
 
+@layer components {
+  .base-title {
+    @apply text-4xl text-[#CCD6F6] font-light
+  }
+  .sub-title {
+    @apply opacity-80 text-[#8892B0] text-base
+  }
+}
+
 html::-webkit-scrollbar {
   width: 6px;
 }
