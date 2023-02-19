@@ -85,7 +85,7 @@
   },
   "projects": [
     {
-      "src": "/images/1.jpeg",
+      "src": "/images/dirtybits.jpg",
       "visit": "https://dirty-bits-next-js.vercel.app/",
       "source": "https://github.com/Mohitb07/DirtyBits-Next-Js",
       "title": "DirtyBits"
@@ -100,6 +100,12 @@
       "src": "/images/facesmash.png",
       "source": "https://github.com/Mohitb07/FaceSmash",
       "title": "FaceSmash"
+    },
+    {
+      "src": "/images/facesmash-web.jpg",
+      "visit": "https://facesmash.vercel.app/",
+      "source": "https://github.com/Mohitb07/FaceSmash-web",
+      "title": "FaceSmash Web"
     }
   ],
   "socials": {
