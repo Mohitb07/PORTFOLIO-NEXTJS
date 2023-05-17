@@ -8,7 +8,7 @@ It's my portfolio project where I have showcased my skills and projects.
 
 ## Screenshot
 
-[![image1.jpg](https://i.postimg.cc/52LzCJKB/image1.jpg)](https://postimg.cc/v48TJJsT)
+![Screenshot 2023-05-17 204342](https://github.com/Mohitb07/PORTFOLIO-NEXTJS/assets/51907464/8e3b48c6-1062-49e6-82c7-550fa64822e2)
 
 ## Run Locally
 
