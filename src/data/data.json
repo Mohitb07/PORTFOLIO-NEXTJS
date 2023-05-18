@@ -106,6 +106,12 @@
       "visit": "https://facesmash.vercel.app/",
       "source": "https://github.com/Mohitb07/FaceSmash-web",
       "title": "FaceSmash Web"
+    },
+    {
+      "src": "/images/wondrmart.jpg",
+      "visit": "https://wondrmart.netlify.app/",
+      "source": "https://github.com/Mohitb07/OMS",
+      "title": "wondrMart"
     }
   ],
   "socials": {
