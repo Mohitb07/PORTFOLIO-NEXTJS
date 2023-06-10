@@ -39,7 +39,7 @@ Start the server
 
 ## Tech Stack
 
-**Client:** ReactJS, NextJS, Framer-Motion, Headless UI, Daisy UI
+**Client:** TypeScript, ReactJS, NextJS, Framer-Motion, Headless UI, Daisy UI, React Icons
 
 
 ## Contributing
