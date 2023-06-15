@@ -1,6 +1,6 @@
 import React from "react";
 
-import data from '../data/data.json'
+import data from "../data/data.json";
 
 function Resume() {
   const style = {
