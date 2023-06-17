@@ -7,7 +7,7 @@
   },
   "about": {
     "profilePic": "https://cdnb.artstation.com/p/assets/images/images/034/457/389/large/shin-min-jeong-.jpg?1612345145",
-    "aboutMe" : "Hey! My name is Mohit Singh Bisht and I am a Full-stack web developer with a passion for front-end and back-end development. I have completed my Bachelor of Computer Application (BCA) from the Insitute of Innovation in Technology and Management. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences"
+    "aboutMe": "Hey! My name is Mohit Singh Bisht and I am a Full-stack web developer with a passion for front-end and back-end development. I have completed my Bachelor of Computer Application (BCA) from the Insitute of Innovation in Technology and Management. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences"
   },
   "skills": [
     {
@@ -85,21 +85,10 @@
   },
   "projects": [
     {
-      "src": "/images/dirtybits.jpg",
-      "visit": "https://dirty-bits-next-js.vercel.app/",
-      "source": "https://github.com/Mohitb07/DirtyBits-Next-Js",
-      "title": "DirtyBits"
-    },
-    {
-      "src": "/images/2.jpeg",
-      "visit": "https://mohitb07.github.io/live_weather/",
-      "source": "https://github.com/Mohitb07/live_weather",
-      "title": "Live Weather"
-    },
-    {
-      "src": "/images/facesmash.png",
-      "source": "https://github.com/Mohitb07/FaceSmash",
-      "title": "FaceSmash"
+      "src": "/images/wondr.jpg",
+      "visit": "https://wondrmart.netlify.app/",
+      "source": "https://github.com/Mohitb07/OMS",
+      "title": "wondrMart"
     },
     {
       "src": "/images/facesmash-web.jpg",
@@ -108,10 +97,21 @@
       "title": "FaceSmash Web"
     },
     {
-      "src": "/images/wondr.jpg",
-      "visit": "https://wondrmart.netlify.app/",
-      "source": "https://github.com/Mohitb07/OMS",
-      "title": "wondrMart"
+      "src": "/images/facesmash.png",
+      "source": "https://github.com/Mohitb07/FaceSmash",
+      "title": "FaceSmash"
+    },
+    {
+      "src": "/images/2.jpeg",
+      "visit": "https://mohitb07.github.io/live_weather/",
+      "source": "https://github.com/Mohitb07/live_weather",
+      "title": "Live Weather"
+    },
+    {
+      "src": "/images/dirtybits.jpg",
+      "visit": "https://dirty-bits-next-js.vercel.app/",
+      "source": "https://github.com/Mohitb07/DirtyBits-Next-Js",
+      "title": "DirtyBits"
     }
   ],
   "socials": {
