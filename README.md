@@ -1,8 +1,6 @@
 
 # PortFolio Site 🚀
 
-## Live At - https://mohitbisht-ivory.vercel.app/
-
 It's my portfolio project where I have showcased my skills and projects.
 
 
