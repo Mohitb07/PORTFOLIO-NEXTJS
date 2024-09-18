@@ -86,8 +86,8 @@
   "projects": [
     {
       "src": "/images/wondr.jpg",
-      "visit": "https://wondrmart.netlify.app/",
-      "source": "https://github.com/Mohitb07/OMS",
+      "visit": "https://wondrmart.vercel.app/",
+      "source": "https://github.com/Mohitb07/wondrmart-nextjs",
       "title": "wondrMart"
     },
     {
