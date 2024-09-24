@@ -32,7 +32,7 @@ function About() {
               <FaReact className="text-[8rem] lg:text-[10rem] bg-[#793EF9] text-[#CCD6F6] rounded-full p-8 lg:p-12 hover:animate-spin" />
               <h3>Front End</h3>
               <p className="text-center opacity-70 text-sm lg:text-base">
-                I've primarily worked with{" "}
+                I&apos;ve primarily worked with{" "}
                 <span className="font-semibold text-[#793EF9]">ReactJS </span>
                 and
                 <span className="font-semibold text-[#793EF9]"> NextJS </span>
@@ -45,7 +45,7 @@ function About() {
               <VscServerProcess className="text-[8rem] lg:text-[10rem] bg-[#793EF9] text-[#CCD6F6] rounded-full p-8 lg:p-12 hover:animate-spin" />
               <h3>Back End</h3>
               <p className="text-center opacity-70 text-sm lg:text-base">
-                I've worked with NodeJS on tasks like
+                I&apos;ve worked with NodeJS on tasks like
                 <span className="font-semibold text-[#793EF9]"> RestAPIs</span>,
                 <span className="font-semibold text-[#793EF9]">
                   {" "}
@@ -56,7 +56,7 @@ function About() {
                   {" "}
                   server side rendering
                 </span>
-                . I'm also familiar with{" "}
+                . I&apos;m also familiar with{" "}
                 <span className="font-semibold text-[#793EF9]">
                   {" "}
                   microservices{" "}
@@ -79,7 +79,7 @@ function About() {
                 isolating environments with{" "}
                 <span className="font-semibold text-[#793EF9]">Docker</span> and
                 using <span className="font-semibold text-[#793EF9]">Git</span>{" "}
-                for version control. However, I'm only familiar with Docker and
+                for version control. However, I&apos;m only familiar with Docker and
                 Kubernetes for now.{" "}
               </p>
             </div>
