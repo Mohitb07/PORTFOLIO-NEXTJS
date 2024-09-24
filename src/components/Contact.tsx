@@ -1,4 +1,5 @@
-import { PaperAirplaneIcon } from "@heroicons/react/solid";
+import { PaperAirplaneIcon } from "@heroicons/react/24/solid";
+
 import React from "react";
 
 function Contact() {
@@ -7,7 +8,7 @@ function Contact() {
       id="contact"
       className="text-[#CCD6F6] flex flex-col items-center h-80 justify-center space-y-6 "
     >
-      <PaperAirplaneIcon className="h-20 rotate-45 transition-all ease-in-out" />
+      <PaperAirplaneIcon className="h-20 -rotate-45 transition-all ease-in-out" />
       <h1 className="lg:text-2xl font-extralight">GET IN TOUCH</h1>
       <p className="opacity-80 text-center max-w-xs lg:max-w-full">
         Whether you have an idea for a project or just want to chat,{" "}

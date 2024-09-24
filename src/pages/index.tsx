@@ -2,9 +2,9 @@ import Head from "next/head";
 import React from "react";
 
 import { motion } from "framer-motion";
-import data from '../data/data.json'
+import data from "../data/data.json";
 
-import About from '../components/About'
+import About from "../components/About";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
@@ -59,13 +59,15 @@ const Index = () => {
           animate="visible"
           className="bg2 absolute h-60 w-60 md:h-[500px] md:w-[500px]"
         ></motion.div>
-        <Hero />
-        <About />
-        <Skills />
-        <Resume />
-        <Projects />
-        <Contact />
-        <Footer />
+        <div className="space-y-10 lg:space-y-14">
+          <Hero />
+          <About />
+          <Skills />
+          <Resume />
+          <Projects />
+          <Contact />
+          <Footer />
+        </div>
       </div>
     </>
   );
