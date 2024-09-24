@@ -1,8 +1,8 @@
-import { ArrowDownIcon } from "@heroicons/react/outline";
+import { ArrowDownIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import data from '../data/data.json'
+import data from "../data/data.json";
 
 function Hero() {
   const imageContainer = {
@@ -65,10 +65,10 @@ function Hero() {
   };
 
   return (
-    <div className="min-h-screen  glassBackground">
-      <div className="w-full mx-auto p-4 2xl:w-[1250px]">
-        <div className="flex flex-col-reverse md:flex-row items-center justify-around 2xl:justify-between pt-10 md:pt-0">
-          <div className="space-y-7">
+    <div className="min-h-screen glassBackground">
+      <div className="p-4 space-y-14 md:space-y-40 lg:space-y-10">
+        <div className="flex flex-col-reverse md:justify-between xl:justify-center p-1 md:flex-row items-center py-6 md:pt-0">
+          <div className="space-y-7 text-center md:text-left">
             <motion.h1
               variants={textAnimation1}
               initial="hidden"
@@ -82,7 +82,7 @@ function Hero() {
               initial="hidden"
               animate="visible"
               className="text-2xl font-extralight sm:text-[30px] md:text-2xl lg:text-3xl xl:text-4xl"
-              >
+            >
               {data.hero.title[1]}
             </motion.h1>
             <motion.h1
@@ -91,7 +91,10 @@ function Hero() {
               animate="visible"
               className="text-2xl font-extralight sm:text-[30px] md:text-2xl lg:text-3xl xl:text-4xl"
             >
-              A <span className="text-purple-600 font-bold">{data.hero.title[2]}</span>{" "}
+              A{" "}
+              <span className="text-purple-600 font-bold">
+                {data.hero.title[2]}
+              </span>{" "}
               Developer
             </motion.h1>
           </div>
@@ -109,12 +112,18 @@ function Hero() {
             />
           </motion.div>
         </div>
-        <div className="flex items-center space-x-4 justify-center md:justify-start mt-20">
-          <ArrowDownIcon
-            className="text-center h-10 p-2 md:p-3 md:h-16 border-4 border-white rounded-full"
-            id="about"
-          />
-          <span>{data.hero.footer}</span>
+        <div className="flex items-center space-x-4 justify-center md:justify-start py-2">
+          <div className="flex items-center p-1 mx-auto gap-4">
+            <div>
+              <div className="scrolldown">
+                <div className="chevrons">
+                  <div className="chevrondown"></div>
+                  <div className="chevrondown"></div>
+                </div>
+              </div>
+            </div>
+            <span className="hidden md:block mb-3">{data.hero.footer}</span>
+          </div>
         </div>
       </div>
     </div>
